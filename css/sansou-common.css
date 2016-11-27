@@ -1,0 +1,41 @@
+@charset "UTF-8"
+
+body {
+    padding-top: 70px;
+    font-family:'Lucida Grande','Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+
+#footer {
+    margin-top:200px;
+}
+
+/**
+テーマを変更するモーダルのスタイル定義
+*/
+
+.theme-modal-backdrop {
+    background-color: transparent;
+    opacity: 1;
+}
+
+#theme-setting .modal-body {
+    padding: 0px;
+}
+
+#theme-setting .theme-box {
+    padding: 10px 20px;
+}
+
+#theme-setting .theme-box > .theme-color {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 1px solid #000;
+    margin: 5px 0 -5px 5px;
+    border-radius: 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+}
+
+
